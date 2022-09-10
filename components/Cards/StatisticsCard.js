@@ -5,7 +5,7 @@ import Link from "next/link";
 const StatisticsCard = ({ icon, title, href, className, ...props }) => {
   return (
     <div className={`flex flex-col gap-5 ${className}`}>
-      <div className="px-3 py-[0.5rem] text-center bg-white border-2 border-gray-200 max-w-max rounded-xl">
+      <div className="px-3 grid place-items-center py-[0.5rem] text-center bg-white border-2 border-gray-200 max-w-max rounded-xl">
         <Image src={icon} alt="Statistics Icon" width={20} height={20} />
       </div>
       <div className="flex flex-col min-w-xs text-start">
