@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import WhatWeDo from "../sections/WhatWeDo";
 import WhoWeAre from "../sections/WhoWeAre"
+import Footer from "../components/Footer";
+
 export default function Home() {
   return (
     <div>
@@ -19,6 +21,7 @@ export default function Home() {
         <Header />
         <WhatWeDo />
         <WhoWeAre />
+        <Footer />
       </main>
     </div>
   )
