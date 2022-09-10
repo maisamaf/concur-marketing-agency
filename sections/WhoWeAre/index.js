@@ -162,7 +162,7 @@ const Index = () => {
             <Image
               src="/images/discussion.jpg"
               alt="Coworking space"
-              height={340}
+              height={400}
               width={340}
               objectFit="cover"
               className="rounded-[2rem]"
@@ -173,9 +173,9 @@ const Index = () => {
               </Typography>
               <ul className="flex flex-col items-start mt-8 space-y-4 text-start">
                 <li className="">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-orange-500 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-2.5 h-2.5 text-white mb-0.5"
+                      className="inline-block w-4 h-4 text-white mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -189,12 +189,14 @@ const Index = () => {
                       />
                     </svg>
                   </span>
-                  <span className="leading-loose">Dedicated account manager for each account</span>
+                  <span className="leading-loose">
+                    Dedicated account manager for each account
+                  </span>
                 </li>
                 <li className="">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-orange-500 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-2.5 h-2.5 text-white mb-0.5"
+                      className="inline-block w-4 h-4 text-white mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -208,12 +210,14 @@ const Index = () => {
                       />
                     </svg>
                   </span>
-                  Clear and concise reporting platfrom
+                  <span className="leading-loose">
+                    Clear and concise reporting platfrom
+                  </span>
                 </li>
                 <li className="mb-3">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-orange-500 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-2.5 h-2.5 text-white mb-0.5"
+                      className="inline-block w-4 h-4 text-white mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -227,12 +231,14 @@ const Index = () => {
                       />
                     </svg>
                   </span>
-                  <span className="leading-loose">Partner status with Google, Facebook, Bing and more</span>
+                  <span className="leading-loose">
+                    Partner status with Google, Facebook, Bing and more
+                  </span>
                 </li>
                 <li className="mb-3 ">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-orange-500 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-2.5 h-2.5 text-white mb-0.5"
+                      className="inline-block w-4 h-4 text-white mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -246,13 +252,27 @@ const Index = () => {
                       />
                     </svg>
                   </span>
-                  <span className="leading-loose">On-staff experts in marketing, design, automation &
-                  development</span>
+                  <span className="leading-loose">
+                    On-staff experts in marketing, design, automation &
+                    development
+                  </span>
                 </li>
 
-                <Button variant="gradient" color="purple" className="mt-6">
-                  Send me a Proposal 📃
-                </Button>
+                <a className="mt-[3rem!important] cursor-pointer text-lg  text-blue-600 max-w-max link link-underline ">
+                  Send me a proposal
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="inline-block w-4 h-4 ml-2"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                </a>
               </ul>
             </div>
           </div>
@@ -282,50 +302,78 @@ const Index = () => {
       </div>
 
       <section className="max-w-6xl mx-auto my-16 p-14 sm:p-20">
-      <div className="flex flex-col gap-20 sm:flex-row">
-        <div className="flex-1">
-          <Typography variant="lead" className="text-3xl font-semibold sm:text-5xl font-poppins">By the numbers</Typography>
-          <Typography variant="h2" className="text-8xl sm:text-[12rem] mt-6 sm:mt-12 font-poppins">92%</Typography>
-          <Typography variant="h4" className="mt-4">Retention rate</Typography>
-          <Typography variant="paragraph" className="mt-3">
-            Your business is in good hands at CreativeAgency. While the average retention rate for marketing agencies hovers around 50%, over 90% of our clients stay with us over the long haul because of the results we deliver and the relationships we build.
-          </Typography>
-        </div>
-        <div className="flex-1">
-          <Typography variant="paragraph">Our best-in-class digital marketing agency impresses customers with impactful results and wows them with stellar customer service.</Typography>
-          <div className="flex justify-start gap-10 mt-20">
-            <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-              <div className="absolute bottom-0 w-full bg-[#F5DBCC] h-60 rounded-t-xl"/>
-            </div>
-            <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-              <div className="absolute bottom-0 w-full bg-[#C3EBED] h-[7rem] rounded-t-xl"/>
-            </div>
-            <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-              <div className="absolute bottom-0 w-full bg-[#5134FF] h-[17rem] rounded-t-xl"/>
-            </div>
-            <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-              <div className="absolute bottom-0 w-full bg-[#C7C7C7] h-48 rounded-t-xl"/>
+        <div className="flex flex-col gap-20 sm:flex-row">
+          <div className="flex-1">
+            <Typography
+              variant="lead"
+              className="text-3xl font-semibold sm:text-5xl font-poppins"
+            >
+              By the numbers
+            </Typography>
+            <Typography
+              variant="h2"
+              className="text-8xl sm:text-[12rem] mt-6 sm:mt-12 font-poppins"
+            >
+              92%
+            </Typography>
+            <Typography variant="h4" className="mt-4">
+              Retention rate
+            </Typography>
+            <Typography variant="paragraph" className="mt-3">
+              Your business is in good hands at CreativeAgency. While the
+              average retention rate for marketing agencies hovers around 50%,
+              over 90% of our clients stay with us over the long haul because of
+              the results we deliver and the relationships we build.
+            </Typography>
+          </div>
+          <div className="flex-1">
+            <Typography variant="paragraph">
+              Our best-in-class digital marketing agency impresses customers
+              with impactful results and wows them with stellar customer
+              service.
+            </Typography>
+            <div className="flex justify-start gap-10 mt-20">
+              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#F5DBCC] h-60 rounded-t-xl" />
+              </div>
+              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#C3EBED] h-[7rem] rounded-t-xl" />
+              </div>
+              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#5134FF] h-[17rem] rounded-t-xl" />
+              </div>
+              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#C7C7C7] h-48 rounded-t-xl" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <hr className="my-20" />
-      <div className="flex flex-col gap-10 sm:gap-20 sm:flex-row">
-        <div className="flex-1">
-          <Typography variant="h4" className="text-3xl sm:text-[2.4rem] leading-snug">
-            Ready to grow with a digital marketing agency you can trust? <br className="hidden sm:block" />
-            Get your proposal now!
-          </Typography>
+        <hr className="my-20" />
+        <div className="flex flex-col gap-10 sm:gap-20 sm:flex-row">
+          <div className="flex-1">
+            <Typography
+              variant="h4"
+              className="text-3xl sm:text-[2.4rem] leading-snug"
+            >
+              Ready to grow with a digital marketing agency you can trust?{" "}
+              <br className="hidden sm:block" />
+              Get your proposal now!
+            </Typography>
+          </div>
+          <div className="flex-1">
+            <Typography variant="paragraph">
+              Our digital marketing experts have put together thousands of
+              successfuldigital marketing campaigns for businesses looking to
+              increase leads, phone calls, transactions, and qualified website
+              traffic. They will do the same for you, request a free strategy
+              proposal and get a game plan for elite revenue.
+            </Typography>
+            <Button variant="gradient" color="blue" size="lg" className="mt-8">
+              Send me a proposal 📃
+            </Button>
+          </div>
         </div>
-        <div className="flex-1">
-          <Typography variant="paragraph">
-            Our digital marketing experts have put together thousands of successfuldigital marketing campaigns for businesses looking to increase
-            leads, phone calls, transactions, and qualified website traffic. They will do the same for you, request a free strategy proposal and get a game plan for elite revenue.
-          </Typography>
-          <Button variant="gradient" color="purple" className="mt-8">Send me a proposal 📃</Button>
-        </div>
-      </div>
-</section>
+      </section>
     </>
   );
 };
