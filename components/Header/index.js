@@ -6,20 +6,20 @@ import SimpleCard from "../Cards/SimpleCard";
 
 const Index = () => {
   return (
-    <header className="container py-8 sm:p-16 mx-auto">
-      <div className="flex flex-col items-center text-center sm:text-start sm:items-start mx-4 sm:max-w-screen-lg my-6 sm:mx-16">
-        <Typography variant="h1" className="text-4xl sm:text-5xl font-bold font-poppins" style={{lineHeight: "1.4"}}>
+    <header className="container py-8 mx-auto sm:p-16">
+      <div className="flex flex-col items-center mx-4 my-6 text-center sm:text-start sm:items-start sm:max-w-screen-lg sm:mx-16">
+        <Typography variant="h1" className="text-4xl font-bold sm:text-5xl font-poppins" style={{lineHeight: "1.2"}}>
         Choose Creative Agency as your digital marketing agency.
         </Typography>
         <Button
           variant="gradient"
           color="primary"
           size="lg"
-          className="max-w-max mt-8 rounded-full"
+          className="mt-8 rounded-full max-w-max"
         >
           <span className="normal-case">Get in touch</span>
           <svg
-            className="w-5 h-5 inline-block ml-2 mr-0"
+            className="inline-block w-5 h-5 ml-2 mr-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ const Index = () => {
         </Button>
 
       </div>
-      <div className="flex flex-wrap justify-center gap-5 my-24 mx-8">
+      <div className="flex flex-wrap justify-center gap-5 mx-8 my-24">
         <SimpleCard image="/images/planning.jpg" alt="Writing Plan" />
         <SimpleCard
           image="/images/stats.jpg"
