@@ -19,12 +19,12 @@ const Index = () => {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal font-poppins"
       >
         <a href="#what-we-do" className="flex items-center">
           What we do
@@ -34,7 +34,7 @@ const Index = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal font-poppins"
       >
         <a href="#our-work" className="flex items-center">
           Our Work
@@ -44,7 +44,7 @@ const Index = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal font-poppins"
       >
         <a href="#who-are-we" className="flex items-center">
           Who we are
@@ -54,7 +54,7 @@ const Index = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal font-poppins"
       >
         <a href="#blog" className="flex items-center">
           Blog
@@ -64,8 +64,8 @@ const Index = () => {
   );
 
   return (
-    <Navbar className="mx-auto py-2 px-4 shadow-none lg:py-4">
-      <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+    <Navbar className="px-4 py-2 mx-auto shadow-none lg:py-4">
+      <div className="container flex items-center justify-between mx-auto text-blue-gray-900">
         <div className="flex">
           <Image
             src="/images/logo.png"
@@ -78,7 +78,7 @@ const Index = () => {
             as="a"
             href="#"
             variant="small"
-            className="-ml-4 mr-4 cursor-pointer py-1.5 font-bold "
+            className="-ml-4 mr-4 cursor-pointer py-1.5 font-bold font-poppins text-lg"
           >
             <span>Creative Agency</span>
           </Typography>
@@ -88,13 +88,15 @@ const Index = () => {
           variant="fill"
           color="gray"
           size="sm"
-          className="bg-gray-200 text-black hidden lg:inline-block"
+          className="hidden text-gray-700 bg-gray-300 lg:inline-block"
         >
-          <span className="normal-case">Get in touch 👋</span>
+          <span className="normal-case ">
+            Get in touch <span className="text-lg">👋</span>
+          </span>
         </Button>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="w-6 h-6 ml-auto text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
@@ -102,7 +104,7 @@ const Index = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              className="h-6 w-6"
+              className="w-6 h-6"
               viewBox="0 0 24 24"
               stroke="currentColor"
               strokeWidth={2}
@@ -116,7 +118,7 @@ const Index = () => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="w-6 h-6"
               fill="none"
               stroke="currentColor"
               strokeWidth={2}
@@ -134,12 +136,14 @@ const Index = () => {
         {navList}
         <Button
           variant="fill"
-          color="blue-gray"
+          color="gray"
           size="sm"
           fullWidth
-          className="mb-2"
+          className="mb-2 text-gray-700 bg-gray-300"
         >
-          <span className="normal-case">Get in touch 👋</span>
+          <span className="normal-case">
+            Get in touch <span className="text-lg">👋</span>
+          </span>
         </Button>
       </MobileNav>
     </Navbar>
