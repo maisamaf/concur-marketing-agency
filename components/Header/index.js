@@ -9,7 +9,7 @@ const Index = () => {
     <header className="container py-8 mx-auto sm:p-16">
       <div className="flex flex-col items-center mx-4 my-6 text-center sm:text-start sm:items-start sm:max-w-screen-lg sm:mx-16">
         <Typography variant="h1" className="text-4xl font-bold sm:text-5xl font-poppins" style={{lineHeight: "1.2"}}>
-        Choose Creative Agency as your digital marketing agency.
+        Choose <span className="font-black uppercase">Concur</span> as your digital marketing agency.
         </Typography>
         <Button
           variant="gradient"

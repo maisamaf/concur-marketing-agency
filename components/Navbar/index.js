@@ -7,6 +7,7 @@ import {
   Button,
   IconButton,
 } from "@material-tailwind/react";
+import Link from "next/link";
 
 const Index = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -20,6 +21,16 @@ const Index = () => {
 
   const navList = (
     <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+          <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal font-poppins"
+      >
+        <Link href="/" className="flex items-center">
+          Home
+        </Link>
+      </Typography>
       <Typography
         as="li"
         variant="small"
@@ -56,9 +67,9 @@ const Index = () => {
         color="blue-gray"
         className="p-1 font-normal font-poppins"
       >
-        <a href="#blog" className="flex items-center">
+        <Link href="/blog" className="flex items-center">
           Blog
-        </a>
+        </Link>
       </Typography>
     </ul>
   );
@@ -69,7 +80,7 @@ const Index = () => {
         <div className="flex">
           <Image
             src="/images/logo.png"
-            alt="Creative Agency Logo"
+            alt="Concur Agency Logo"
             height={30}
             width={120}
             objectFit="cover"
@@ -80,7 +91,7 @@ const Index = () => {
             variant="small"
             className="-ml-4 mr-4 cursor-pointer py-1.5 font-bold font-poppins text-lg"
           >
-            <span>Creative Agency</span>
+            <span>CONCUR</span>
           </Typography>
         </div>
         <div className="hidden lg:block">{navList}</div>
