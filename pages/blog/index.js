@@ -29,7 +29,7 @@ const Blog = () => {
           </Link>
           </div>
               <div className="flex flex-col max-w-3xl mx-4 mt-3">
-                <Link href="/blog/blog-post-1">
+                <Link href="/blog/the-age-of-customer-connected">
                 <Typography variant="h2" className="text-2xl cursor-pointer font-poppins">The 15 Best Marketing Automation Tools Available to You</Typography>
                 </Link>
                 <Typography variant="paragraph" className="mx-1 my-2 text-sm ">
