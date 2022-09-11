@@ -7,16 +7,18 @@ const Index = () => {
   return (
     <section className="mx-auto mb-20 text-center max-w-8xl">
       <div className="relative mx-16" id="our-work">
-        <Typography variant="h2" className="text-4xl font-poppins">
+        <Typography variant="h2" className="inline-block text-4xl font-poppins">
           We are the best choice of your{" "}
-          <span className="text-blue-700">Digital Marketing.</span>
-          <span className="absolute text-start right-[1.8rem] -bottom-24 sm:right-[25rem] sm:bottom-[7rem] text-4xl text-gray-200">
-            Branding.
-          </span>
-          <span className="absolute right-[1.3rem] -bottom-12 sm:right-[24.2rem] sm:bottom-[3.8rem] text-4xl text-gray-300">
+        </Typography>
+        <div className="relative inline-block max-w-max">
+        <span className="mx-2 text-4xl text-blue-700 max-w-max font-poppins">Digital Marketing.</span>
+          <span className="absolute text-4xl text-gray-300 left-2 top-10 sm:top-auto sm:bottom-10">
             Social Ads
           </span>
-        </Typography>
+          <span className="absolute text-4xl text-gray-200 left-2 top-20 sm:top-auto sm:bottom-20 text-start">
+            Branding.
+          </span>
+        </div>
       </div>
       <div className="max-w-6xl mx-auto mt-40 mb-20 sm:my-20">
         <div className="flex flex-wrap justify-center gap-10">
