@@ -156,7 +156,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <div className="max-w-6xl mx-auto mb-16 -mt-16 bg-gray-200 rounded-[2rem] p-14 sm:p-20">
+      <div className="max-w-6xl mx-auto mb-16 -mt-16 bg-gray-200 rounded-b-[2rem] p-14 sm:p-20">
         <div className="flex">
           <div className="flex flex-col items-center gap-10 sm:flex-row sm:justify-around sm:gap-20">
             <Image
@@ -169,13 +169,13 @@ const Index = () => {
             />
             <div className="flex flex-col">
               <Typography variant="h2" className="text-3xl">
-                How CreativeAgency creates growth business
+                How <span className="font-semibold">Concur</span> creates growth business
               </Typography>
               <ul className="flex flex-col items-start mt-8 space-y-4 text-start">
                 <li className="">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full place-items-center">
                     <svg
-                      className="inline-block w-4 h-4 text-white mb-0.5"
+                      className="inline-block w-4 h-4 mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -194,9 +194,9 @@ const Index = () => {
                   </span>
                 </li>
                 <li className="">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-4 h-4 text-white mb-0.5"
+                      className="inline-block w-4 h-4  mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -215,9 +215,9 @@ const Index = () => {
                   </span>
                 </li>
                 <li className="mb-3">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-4 h-4 text-white mb-0.5"
+                      className="inline-block w-4 h-4  mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -236,9 +236,9 @@ const Index = () => {
                   </span>
                 </li>
                 <li className="mb-3 ">
-                  <span className="inline-block w-6 h-6 mr-4 text-center bg-blue-600 rounded-full">
+                  <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-4 h-4 text-white mb-0.5"
+                      className="inline-block w-4 h-4  mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -320,7 +320,7 @@ const Index = () => {
               Retention rate
             </Typography>
             <Typography variant="paragraph" className="mt-3">
-              Your business is in good hands at CreativeAgency. While the
+              Your business is in good hands at Concur. While the
               average retention rate for marketing agencies hovers around 50%,
               over 90% of our clients stay with us over the long haul because of
               the results we deliver and the relationships we build.
