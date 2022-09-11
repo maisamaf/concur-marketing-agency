@@ -99,7 +99,7 @@ const Index = () => {
           variant="fill"
           color="gray"
           size="sm"
-          className="hidden text-gray-700 bg-gray-300 lg:inline-block"
+          className="hidden text-gray-700 bg-gray-300 mr-9 lg:inline-block"
         >
           <span className="normal-case ">
             Get in touch <span className="text-lg">👋</span>
