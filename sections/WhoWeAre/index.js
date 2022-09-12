@@ -258,13 +258,13 @@ const Index = () => {
                   </span>
                 </li>
 
-                <a className="mt-[3rem!important] cursor-pointer text-lg  text-blue-600 max-w-max link link-underline ">
+                <a className="mt-[3rem!important] cursor-pointer text-lg  text-blue-600 max-w-max transition transform duration-300 group">
                   Send me a proposal
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       fill="currentColor"
-                      className="inline-block w-4 h-4 ml-2"
+                      className="inline-block w-4 h-4 ml-2 group-hover:translate-x-1"
                     >
                       <path
                         fillRule="evenodd"
