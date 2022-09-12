@@ -17,24 +17,12 @@ const StatisticsCard = ({ icon, title, href, className, ...props }) => {
         </Typography>
         {href && (
           <Link href={href}>
-          <a className="mt-6 text-blue-600 max-w-max link link-underline">
+          <a className="mt-6 text-blue-600 transition duration-500 transform max-w-max group ">
             Learn more
-            <span>
-              <svg
-                className="inline-block w-3 h-3"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="inline-block w-4 h-4 ml-1 group-hover:translate-x-1">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+</svg>
+
           </a>
         </Link>
         )}
