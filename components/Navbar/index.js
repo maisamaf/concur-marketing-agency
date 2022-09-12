@@ -21,45 +21,15 @@ const Index = () => {
 
   const navList = (
     <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-          <Typography
+      <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal font-poppins"
       >
         <Link href="/" className="flex items-center">
-          Home
+          Presentation
         </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal font-poppins"
-      >
-        <a href="#what-we-do" className="flex items-center">
-          What we do
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal font-poppins"
-      >
-        <a href="#our-work" className="flex items-center">
-          Our Work
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal font-poppins"
-      >
-        <a href="#who-are-we" className="flex items-center">
-          Who we are
-        </a>
       </Typography>
       <Typography
         as="li"
@@ -71,6 +41,16 @@ const Index = () => {
           Blog
         </Link>
       </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal font-poppins"
+      >
+        <Link href="/about-us" className="flex items-center">
+          About us
+        </Link>
+      </Typography>
     </ul>
   );
 
@@ -78,21 +58,25 @@ const Index = () => {
     <Navbar className="px-4 py-2 mx-auto shadow-none lg:py-4">
       <div className="container flex items-center justify-between mx-auto text-blue-gray-900">
         <div className="flex">
-          <Image
-            src="/images/logo.png"
-            alt="Concur Agency Logo"
-            height={30}
-            width={120}
-            objectFit="cover"
-          />
-          <Typography
-            as="a"
-            href="#"
-            variant="small"
-            className="-ml-4 mr-4 cursor-pointer py-1.5 font-bold font-poppins text-lg"
-          >
-            <span>CONCUR</span>
-          </Typography>
+          <Link href="/">
+            <Image
+              src="/images/logo.png"
+              alt="Concur Agency Logo"
+              height={30}
+              width={120}
+              objectFit="cover"
+            />
+          </Link>
+          <Link href="/">
+            <Typography
+              as="a"
+              href="/"
+              variant="small"
+              className="-ml-4 mr-4 cursor-pointer py-1.5 font-bold font-poppins text-lg"
+            >
+              <span>CONCUR</span>
+            </Typography>
+          </Link>
         </div>
         <div className="hidden lg:block">{navList}</div>
         <Button
