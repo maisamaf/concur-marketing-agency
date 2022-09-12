@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <section className="w-full px-6 mx-auto sm:w-10/12">
+      <section className="w-full pb-20 mx-auto px- sm:w-10/12">
         <div className="flex flex-col items-center justify-center p-20 my-8 bg-blue-gray-50 rounded-xl">
           <Typography
             variant="h1"
