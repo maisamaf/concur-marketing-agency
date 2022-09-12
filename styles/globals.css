@@ -11,20 +11,3 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-.link {
-    border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-    background-size: 0 2px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size .5s ease-in-out;
-}
-
-.link-underline {
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#29b6f6, #0288d1)
-}
-
-.link-underline:hover {
-    background-size: 100% 2px;
-    background-position: 0 100%
-}
