@@ -7,15 +7,15 @@ const Index = () => {
   return (
     <section className="mx-auto mb-20 text-center max-w-8xl">
       <div className="relative mx-16" id="our-work">
-        <Typography variant="h2" className="inline-block text-4xl font-poppins">
+        <Typography variant="h2" className="inline-block text-2xl font-bold sm:text-4xl font-poppins">
           We are the best choice of your{" "}
         </Typography>
         <div className="relative inline-block max-w-max sm:mb-14">
-        <span className="mx-2 text-4xl font-bold text-blue-700 max-w-max font-poppins">Digital Marketing.</span>
-          <span className="absolute text-4xl text-gray-300 left-12 sm:left-2 sm:top-14 top-20 lg:top-auto lg:bottom-10">
+        <span className="mx-2 text-2xl font-bold text-blue-700 sm:text-4xl max-w-max font-poppins">Digital Marketing.</span>
+          <span className="absolute text-2xl font-bold text-gray-300 font-poppins sm:text-4xl left-3 sm:left-2 sm:top-14 top-10 lg:top-auto lg:bottom-10">
             Social Ads
           </span>
-          <span className="absolute text-4xl text-gray-200 left-12 sm:left-2 sm:top-28 top-32 lg:top-auto lg:bottom-20 text-start">
+          <span className="absolute text-2xl font-bold text-gray-200 sm:text-4xl left-3 sm:left-2 sm:top-28 top-20 lg:top-auto lg:bottom-20 text-start">
             Branding.
           </span>
         </div>
