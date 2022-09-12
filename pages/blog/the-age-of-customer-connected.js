@@ -1,5 +1,8 @@
 import { Typography } from "@material-tailwind/react";
+
+// components
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import Date from "../../components/Date";
 
 import Image from "next/image";
@@ -8,8 +11,8 @@ const TheAgeOfCustomerConnected = () => {
   return (
     <>
       <Navbar />
-      <article className="w-9/12 p-20 px-6 mx-auto">
-        <div className="flex gap-5">
+      <article className="w-full p-20 px-6 mx-2 sm:mx-auto sm:w-9/12">
+        <div className="flex flex-col gap-5 sm:flex-row">
           <div className="flex flex-col flex-1 text-gray-800">
             <Typography
               variant="lead"
@@ -118,7 +121,7 @@ const TheAgeOfCustomerConnected = () => {
             <Typography variant="h4" className="w-full py-4 ">
               Related Articles
             </Typography>
-            <div className="flex flex-row flex-wrap gap-10 m3-5">
+            <div className="flex flex-col flex-wrap gap-10 sm:flex-row m3-5">
               <div className="flex-1 max-w-md pb-4 transition duration-500 transform cursor-pointer bg-gray-50 rounded-b-xl hover:scale-105">
                 <div className="flex-col">
                   <div className="relative h-[200px]">
@@ -203,6 +206,7 @@ const TheAgeOfCustomerConnected = () => {
           </div>
         </section>
       </article>
+      <Footer />
     </>
   );
 };
