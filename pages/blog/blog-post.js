@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 // components
@@ -5,7 +6,6 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Date from "../../components/Date";
 
-import Image from "next/image";
 
 const TheAgeOfCustomerConnected = () => {
   return (
