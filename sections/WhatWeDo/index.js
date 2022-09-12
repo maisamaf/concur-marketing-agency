@@ -10,12 +10,12 @@ const Index = () => {
         <Typography variant="h2" className="inline-block text-4xl font-poppins">
           We are the best choice of your{" "}
         </Typography>
-        <div className="relative inline-block max-w-max">
+        <div className="relative inline-block max-w-max sm:mb-14">
         <span className="mx-2 text-4xl font-bold text-blue-700 max-w-max font-poppins">Digital Marketing.</span>
-          <span className="absolute text-4xl text-gray-300 left-2 top-10 sm:top-auto sm:bottom-10">
+          <span className="absolute text-4xl text-gray-300 left-12 sm:left-2 sm:top-14 top-20 lg:top-auto lg:bottom-10">
             Social Ads
           </span>
-          <span className="absolute text-4xl text-gray-200 left-2 top-20 sm:top-auto sm:bottom-20 text-start">
+          <span className="absolute text-4xl text-gray-200 left-12 sm:left-2 sm:top-28 top-32 lg:top-auto lg:bottom-20 text-start">
             Branding.
           </span>
         </div>
