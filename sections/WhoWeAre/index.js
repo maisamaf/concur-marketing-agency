@@ -333,17 +333,17 @@ const Index = () => {
               service.
             </Typography>
             <div className="flex justify-start gap-10 mt-20">
-              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-                <div className="absolute bottom-0 w-full bg-[#F5DBCC] h-60 rounded-t-xl" />
+              <div className="relative w-24 bg-[#F3F3F3] h-[25rem] rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#F5DBCC] h-[18rem] rounded-t-xl" />
               </div>
-              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-                <div className="absolute bottom-0 w-full bg-[#C3EBED] h-[7rem] rounded-t-xl" />
+              <div className="relative w-24 bg-[#F3F3F3] h-[25rem] rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#C3EBED] h-[8rem] rounded-t-xl" />
               </div>
-              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-                <div className="absolute bottom-0 w-full bg-[#5134FF] h-[17rem] rounded-t-xl" />
+              <div className="relative w-24 bg-[#F3F3F3] h-[25rem] rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#5134FF] h-[18rem] rounded-t-xl" />
               </div>
-              <div className="relative w-24 bg-[#F3F3F3] h-80 rounded-t-xl">
-                <div className="absolute bottom-0 w-full bg-[#C7C7C7] h-48 rounded-t-xl" />
+              <div className="relative w-24 bg-[#F3F3F3] h-[25rem] rounded-t-xl">
+                <div className="absolute bottom-0 w-full bg-[#C7C7C7] h-52 rounded-t-xl" />
               </div>
             </div>
           </div>
