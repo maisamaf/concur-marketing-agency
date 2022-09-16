@@ -6,12 +6,11 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Date from "../../components/Date";
 
-
 const TheAgeOfCustomerConnected = () => {
   return (
     <>
       <Navbar />
-      <article className="w-full p-20 px-6 mx-2 sm:mx-auto sm:w-9/12">
+      <article className="w-full p-20 px-6 mx-2 sm:mx-auto sm:w-7/12">
         <div className="flex flex-col gap-5 sm:flex-row">
           <div className="flex flex-col flex-1 text-gray-800">
             <Typography
@@ -124,7 +123,7 @@ const TheAgeOfCustomerConnected = () => {
             <div className="flex flex-col flex-wrap gap-10 sm:flex-row m3-5">
               <div className="flex-1 max-w-md pb-4 transition duration-500 transform cursor-pointer bg-gray-50 rounded-b-xl hover:scale-105">
                 <div className="flex-col">
-                  <div className="relative h-[200px]">
+                  <div className="relative h-[180px]">
                     <Image
                       src="/images/blog-1.jpg"
                       alt="two girls talking"
@@ -133,14 +132,17 @@ const TheAgeOfCustomerConnected = () => {
                       className="rounded-t-xl"
                     />
                   </div>
-                  <Typography variant="h5" className="p-2">
+                  <Typography variant="h6" className="p-2">
                     The 15 Best Marketing Automation Tools Available to You
                   </Typography>
-                  <Typography variant="paragraph" className="px-2 mb-0 text-sm">
+                  <Typography variant="paragraph" className="px-2 mb-0 text-xs">
                     <span className="font-semibold font-poppins">Author:</span>{" "}
                     Alex Birkett
                   </Typography>
-                  <Typography variant="paragraph" className="px-2 mt-0 text-sm">
+                  <Typography
+                    variant="paragraph"
+                    className="px-2 mt-1 text-xs"
+                  >
                     <span className="font-semibold font-poppins">
                       Reading time:
                     </span>{" "}
@@ -150,7 +152,7 @@ const TheAgeOfCustomerConnected = () => {
               </div>
               <div className="flex-1 max-w-md pb-4 transition duration-500 transform cursor-pointer bg-gray-50 rounded-b-xl hover:scale-105">
                 <div className="flex-col">
-                  <div className="relative h-[200px]">
+                  <div className="relative h-[180px]">
                     <Image
                       src="/images/blog-3.jpg"
                       alt="two girls talking"
@@ -159,14 +161,14 @@ const TheAgeOfCustomerConnected = () => {
                       className="rounded-t-xl"
                     />
                   </div>
-                  <Typography variant="h5" className="p-2">
+                  <Typography variant="h6" className="p-2">
                     50 Free Online Marketing Classes to Take This Year
                   </Typography>
-                  <Typography variant="paragraph" className="px-2 mb-0 text-sm">
+                  <Typography variant="paragraph" className="px-2 mb-0 text-xs">
                     <span className="font-semibold font-poppins">Author:</span>{" "}
                     Alex Birkett
                   </Typography>
-                  <Typography variant="paragraph" className="px-2 mt-0 text-sm">
+                  <Typography variant="paragraph" className="px-2 mt-1 text-xs">
                     <span className="font-semibold font-poppins">
                       Reading time:
                     </span>{" "}
@@ -176,7 +178,7 @@ const TheAgeOfCustomerConnected = () => {
               </div>{" "}
               <div className="flex-1 max-w-md pb-4 transition duration-500 transform cursor-pointer bg-gray-50 rounded-b-xl hover:scale-105">
                 <div className="flex-col">
-                  <div className="relative h-[200px]">
+                  <div className="relative h-[180px]">
                     <Image
                       src="/images/blog-2.jpg"
                       alt="two girls talking"
@@ -185,16 +187,15 @@ const TheAgeOfCustomerConnected = () => {
                       className="rounded-t-xl"
                     />
                   </div>
-
-                  <Typography variant="h5" className="p-2">
+                  <Typography variant="h6" className="p-2">
                     8 Steps to Launching an Online Learning Academy Your
                     Customers Will Love
                   </Typography>
-                  <Typography variant="paragraph" className="px-2 mb-0 text-sm">
+                  <Typography variant="paragraph" className="px-2 mb-0 text-xs">
                     <span className="font-semibold font-poppins">Author:</span>{" "}
                     Alex Birkett
                   </Typography>
-                  <Typography variant="paragraph" className="px-2 mt-0 text-sm">
+                  <Typography variant="paragraph" className="px-2 mt-1 text-xs">
                     <span className="font-semibold font-poppins">
                       Reading time:
                     </span>{" "}

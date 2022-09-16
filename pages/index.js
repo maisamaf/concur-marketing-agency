@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Creative Agency</title>
-        <meta name="description" content="Choose Creative Agency as your digital marketing agency." />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Concur | Marketing Agency</title>
+        <meta name="description" content="Choose Concur as your digital marketing agency." />
+        <link rel="icon" href="./images/logo.png" />
       </Head>
 
       <main>

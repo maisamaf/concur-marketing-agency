@@ -172,10 +172,10 @@ const Index = () => {
                 How <span className="font-semibold">Concur</span> creates growth business
               </Typography>
               <ul className="flex flex-col items-start mt-8 space-y-4 text-start">
-                <li className="">
+                <li className="flex items-center">
                   <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full place-items-center">
                     <svg
-                      className="inline-block w-4 h-4 mb-0.5"
+                      className="inline-block w-3 h-3 mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -193,10 +193,10 @@ const Index = () => {
                     Dedicated account manager for each account
                   </span>
                 </li>
-                <li className="">
+                <li className="flex items-center">
                   <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-4 h-4  mb-0.5"
+                      className="inline-block w-3 h-3  mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -214,10 +214,10 @@ const Index = () => {
                     Clear and concise reporting platfrom
                   </span>
                 </li>
-                <li className="mb-3">
+                <li className="flex items-center mb-3">
                   <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-4 h-4  mb-0.5"
+                      className="inline-block w-3 h-3  mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -235,10 +235,10 @@ const Index = () => {
                     Partner status with Google, Facebook, Bing and more
                   </span>
                 </li>
-                <li className="mb-3 ">
+                <li className="flex items-center mb-3 ">
                   <span className="inline-block w-6 h-6 mr-4 text-center align-middle border border-blue-600 rounded-full">
                     <svg
-                      className="inline-block w-4 h-4  mb-0.5"
+                      className="inline-block w-3 h-3  mb-0.5"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

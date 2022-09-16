@@ -9,7 +9,7 @@ const Index = () => {
         <div className="flex">
           <Image
             src="/images/logo.png"
-            alt="Creative Agency Logo"
+            alt="Concur Logo"
             height={30}
             width={120}
             objectFit="cover"
@@ -20,7 +20,7 @@ const Index = () => {
             variant="small"
             className="-ml-4 mr-4 cursor-pointer py-1.5 font-bold text-white"
           >
-            <span>Creative Agency</span>
+            <span>Concur</span>
           </Typography>
         </div>
         <div className="flex items-end justify-end gap-5 mr-2.5">
@@ -247,7 +247,7 @@ const Index = () => {
       <hr className="my-10 border-gray-600 " />
       <div className="flex flex-col items-center w-full px-8 space-y-5 sm:flex-row sm:justify-between">
         <Typography variant="paragraph" className="text-sm text-gray-400 font-poppins">
-        &copy; 2022 CreativeAgency.Inc. All rights reserved
+        &copy; 2022 Concur.Inc. All rights reserved
         </Typography>
         <div className="flex gap-10 text-sm text-gray-400">
             <Link href="#">

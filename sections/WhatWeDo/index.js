@@ -40,7 +40,7 @@ const Index = () => {
             href="#"
           >
             Your business is unique and you need a website that can help
-            separate you from the competition. The CreativeAgency interactive
+            separate you from the competition. The Concur interactive
             team lays the creative groundwork for your digital presence with a
             cutting-edge website design.
           </StatisticsCard>

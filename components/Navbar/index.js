@@ -83,11 +83,9 @@ const Index = () => {
           variant="fill"
           color="gray"
           size="sm"
-          className="hidden text-gray-700 bg-gray-300 mr-9 lg:inline-block"
+          className="items-center hidden text-[13px] text-gray-700 normal-case bg-gray-300 mr-9 lg:flex"
         >
-          <span className="normal-case ">
-            Get in touch <span className="text-lg">👋</span>
-          </span>
+            Get in touch <span className="inline-block ml-1 text-lg ">👋</span>
         </Button>
         <IconButton
           variant="text"

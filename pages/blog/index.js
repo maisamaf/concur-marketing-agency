@@ -21,9 +21,9 @@ const Blog = () => {
             Learn How Concur creates growth business
           </Typography>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col max-w-5xl gap-2">
           <div className="flex flex-col p-5 transition-all sm:flex-row group hover:bg-gray-50 rounded-xl">
-            <div className="relative w-full h-[220px] sm:w-[240px] sm:h-[180px]">
+            <div className="relative w-full h-[220px] sm:w-[240px] sm:h-[180px] shrink-0">
               <Link href="/blog/blog-post">
                 <Image
                   src="/images/blog-1.jpg"
@@ -38,7 +38,7 @@ const Blog = () => {
               <Link href="/blog/blog-post">
                 <Typography
                   variant="h2"
-                  className="text-2xl cursor-pointer font-poppins"
+                  className="text-xl cursor-pointer font-poppins"
                 >
                   The 15 Best Marketing Automation Tools Available to You
                 </Typography>
@@ -63,7 +63,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="flex flex-col p-5 transition-all sm:flex-row group hover:bg-gray-50 rounded-xl">
-            <div className="relative w-full h-[220px] sm:w-[240px] sm:h-[180px]">
+            <div className="relative w-full h-[220px] sm:w-[240px] sm:h-[180px]  shrink-0">
               <Link href="/blog/blog-post">
                 <Image
                   src="/images/blog-2.jpg"
@@ -78,7 +78,7 @@ const Blog = () => {
               <Link href="/blog/blog-post">
                 <Typography
                   variant="h2"
-                  className="text-2xl cursor-pointer font-poppins"
+                  className="text-xl cursor-pointer font-poppins"
                 >
                   The Age of the Connected Customer
                 </Typography>
