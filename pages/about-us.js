@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Typography, Button } from "@material-tailwind/react";
 
@@ -9,7 +10,12 @@ import Footer from "../components/Footer";
 import greenDoodle from "../public/images/green-doodle.svg";
 const AboutUs = () => {
   return (
-    <>
+    <>    
+    <Head>
+    <title>Concur - About us</title>
+    <link rel="icon" href="./images/logo.png" />
+
+  </Head>
       <Navbar />
       <section className="w-full px-2 mx-auto sm:w-10/12">
         <div className="flex flex-col gap-10 py-20 my-8 sm:px-8 sm:flex-row">

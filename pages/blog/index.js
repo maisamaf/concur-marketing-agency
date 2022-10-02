@@ -1,3 +1,5 @@
+
+import Head from "next/head";
 import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
@@ -8,6 +10,10 @@ import Link from "next/link";
 const Blog = () => {
   return (
     <>
+    <Head>
+      <title>Concur - Blog</title>
+      <link rel="icon" href="./images/logo.png" />
+    </Head>
       <Navbar />
       <section className="w-full pb-20 mx-auto px- sm:w-10/12">
         <div className="flex flex-col items-center justify-center p-20 my-8 bg-blue-gray-50 rounded-xl">

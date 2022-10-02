@@ -14,6 +14,8 @@ export default function Home() {
         <title>Concur | Marketing Agency</title>
         <meta name="description" content="Choose Concur as your digital marketing agency." />
         <link rel="icon" href="./images/logo.png" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
       </Head>
 
       <main>
