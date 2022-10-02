@@ -36,13 +36,13 @@ const AboutUs = () => {
               >
                 success
               </span>{" "}
-              through the power of video.
+              through the power of digital marketing.
             </Typography>
             <Typography
               variant="lead"
               className="text-[1rem] leading-7 tracking-wide text-center sm:text-start text-gray-700 font-poppins sm:pr-8"
             >
-              Video is the future of business in this digital-focused world.
+              Digital marketing is the future of business in this digital-focused world.
               Concur uses video to change the way companies connect and
               communicate. We help organizations of all sizes humanize their
               communications and personalize their customer experiences.

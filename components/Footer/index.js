@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Index = () => {
   return (
-    <footer className="flex flex-col w-full py-20 bg-black sm:px-32">
+    <footer className="relative flex flex-col w-full py-20 bg-black sm:px-32">
       <div className="flex items-center justify-center w-full sm:justify-between">
         <div className="flex">
           <Image
@@ -67,177 +67,145 @@ const Index = () => {
 
       <div className="grid grid-cols-2 p-10 mt-8 text-white sm:grid-cols-5">
         <div className="flex flex-col mb-10 sm:mb-0">
-          <Typography variant="h6" className="font-poppins">Digital Marketing</Typography>
+          <Typography variant="h6" className="font-poppins">
+            Digital Marketing
+          </Typography>
           <ul className="text-gray-400">
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal ">
-                  Overview
-                </a>
+                <a className="text-sm font-normal ">Overview</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal ">
-                  Paid search
-                </a>
+                <a className="text-sm font-normal ">Paid search</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  SEO
-                </a>
+                <a className="text-sm font-normal">SEO</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Email marketing
-                </a>
+                <a className="text-sm font-normal">Email marketing</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal ">
-                  Analytics & Reporting
-                </a>
+                <a className="text-sm font-normal ">Analytics & Reporting</a>
               </Link>
             </li>
           </ul>
         </div>
 
         <div className="flex flex-col mb-10 sm:mb-0">
-          <Typography variant="h6" className="font-poppins">Website Development</Typography>
+          <Typography variant="h6" className="font-poppins">
+            Website Development
+          </Typography>
           <ul className="text-gray-400">
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Overview
-                </a>
+                <a className="text-sm font-normal">Overview</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Front-end
-                </a>
+                <a className="text-sm font-normal">Front-end</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  CMS
-                </a>
+                <a className="text-sm font-normal">CMS</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Ecommerce website
-                </a>
+                <a className="text-sm font-normal">Ecommerce website</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal ">
-                  CRM integration
-                </a>
+                <a className="text-sm font-normal ">CRM integration</a>
               </Link>
             </li>
           </ul>
         </div>
 
         <div className="flex flex-col mb-10 sm:mb-0">
-          <Typography variant="h6" className="font-poppins">Branding</Typography>
+          <Typography variant="h6" className="font-poppins">
+            Branding
+          </Typography>
           <ul className="text-gray-400">
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Overview
-                </a>
+                <a className="text-sm font-normal">Overview</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Brand guidelines
-                </a>
+                <a className="text-sm font-normal">Brand guidelines</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Brand identity
-                </a>
+                <a className="text-sm font-normal">Brand identity</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Brand workshop
-                </a>
+                <a className="text-sm font-normal">Brand workshop</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal ">
-                  Brand strategy
-                </a>
+                <a className="text-sm font-normal ">Brand strategy</a>
               </Link>
             </li>
           </ul>
         </div>
 
         <div className="flex flex-col">
-          <Typography variant="h6" className="font-poppins">Socmed Marketing</Typography>
+          <Typography variant="h6" className="font-poppins">
+            Socmed Marketing
+          </Typography>
           <ul className="text-gray-400">
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Overview
-                </a>
+                <a className="text-sm font-normal">Overview</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Organic social
-                </a>
+                <a className="text-sm font-normal">Organic social</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Paid social
-                </a>
+                <a className="text-sm font-normal">Paid social</a>
               </Link>
             </li>
           </ul>
         </div>
 
         <div className="flex flex-col">
-          <Typography variant="h6" className="font-poppins">Creative</Typography>
+          <Typography variant="h6" className="font-poppins">
+            Creative
+          </Typography>
           <ul className="text-gray-400">
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Overview
-                </a>
+                <a className="text-sm font-normal">Overview</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Web, UI/UX design
-                </a>
+                <a className="text-sm font-normal">Web, UI/UX design</a>
               </Link>
             </li>
             <li className="mt-3">
               <Link href="/#">
-                <a className="text-sm font-normal">
-                  Print design
-                </a>
+                <a className="text-sm font-normal">Print design</a>
               </Link>
             </li>
           </ul>
@@ -246,18 +214,26 @@ const Index = () => {
 
       <hr className="my-10 border-gray-600 " />
       <div className="flex flex-col items-center w-full px-8 space-y-5 sm:flex-row sm:justify-between">
-        <Typography variant="paragraph" className="text-sm text-gray-400 font-poppins">
-        &copy; 2022 Concur.Inc. All rights reserved
+        <Typography
+          variant="paragraph"
+          className="text-sm text-gray-400 font-poppins"
+        >
+          &copy; 2022 Concur.Inc. All rights reserved
         </Typography>
         <div className="flex gap-10 text-sm text-gray-400">
-            <Link href="#">
-                Cookie policy
-            </Link>
-            <Link href="#">
-                Privacy policy
-            </Link>    
+          <Link href="#">Cookie policy</Link>
+          <Link href="#">Privacy policy</Link>
         </div>
       </div>
+      <Typography
+        variant="paragraph"
+        className="absolute left-0 right-0 text-sm text-center text-gray-400 bottom-2 font-poppins"
+      >
+        Made with ❤️ by
+        <a href="https://twitter.com/imaisam" target="_blank" rel="noreferrer">
+          @imaisam
+        </a>
+      </Typography>
     </footer>
   );
 };
