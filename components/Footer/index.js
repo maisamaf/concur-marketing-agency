@@ -227,9 +227,9 @@ const Index = () => {
       </div>
       <Typography
         variant="paragraph"
-        className="absolute left-0 right-0 text-sm text-center text-gray-400 bottom-2 font-poppins"
+        className="absolute left-0 right-0 text-sm text-center text-gray-200 bottom-2 font-poppins"
       >
-        Made with ❤️ by
+        Made with ❤️ by{" "}
         <a href="https://twitter.com/imaisam" target="_blank" rel="noreferrer">
           @imaisam
         </a>
