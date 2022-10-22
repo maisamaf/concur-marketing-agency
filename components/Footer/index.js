@@ -225,15 +225,15 @@ const Index = () => {
           <Link href="#">Privacy policy</Link>
         </div>
       </div>
-      <Typography
-        variant="paragraph"
-        className="absolute left-0 right-0 text-sm text-center text-gray-200 bottom-2 font-poppins"
-      >
-        Made with ❤️ by{" "}
-        <a href="https://twitter.com/imaisam" target="_blank" rel="noreferrer">
-          @imaisam
-        </a>
-      </Typography>
+//       <Typography
+//         variant="paragraph"
+//         className="absolute left-0 right-0 text-sm text-center text-gray-200 bottom-2 font-poppins"
+//       >
+//         Made with ❤️ by{" "}
+//         <a href="https://twitter.com/imaisam" target="_blank" rel="noreferrer">
+//           @imaisam
+//         </a>
+//       </Typography>
     </footer>
   );
 };
